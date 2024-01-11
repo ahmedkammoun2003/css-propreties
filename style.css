@@ -1,0 +1,215 @@
+body{
+    display: flex;
+    gap:100px;
+}
+.propreties{
+    display: flex;
+    flex-direction: column;
+}
+.propreties > .nth_child_first{
+    display: flex;
+}
+.propreties > .nth_child_first > .child{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: aqua;
+}
+.propreties > .nth_child_first:hover :first-child{
+    background-color: darkgoldenrod;
+}
+.propreties > .nth_child_last{
+    display: flex;
+}
+.propreties > .nth_child_last > .child{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: aqua;
+}
+.propreties > .nth_child_last:hover :last-child{
+    background-color: darkgoldenrod;
+}
+.propreties > .nth_child_2{
+    display: flex;
+}
+.propreties > .nth_child_2 > .child{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: aqua;
+}
+.propreties > .nth_child_2:hover :nth-child(2){
+    background-color: darkgoldenrod;
+}
+.propreties > .nth_child_last_2{
+    display: flex;
+}
+.propreties > .nth_child_last_2 > .child{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: aqua;
+}
+.propreties > .nth_child_last_2:hover :nth-last-child(2){
+    background-color: darkgoldenrod;
+}
+.propreties > .nth_child_odd{
+    display: flex;
+}
+.propreties > .nth_child_odd > .child{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: aqua;
+}
+.propreties > .nth_child_odd:hover :nth-child(odd){
+    background-color: darkgoldenrod;
+}
+.propreties > .nth_child_even{
+    display: flex;
+}
+.propreties > .nth_child_even > .child{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: aqua;
+}
+.propreties > .nth_child_even:hover :nth-child(even){
+    background-color: darkgoldenrod;
+}
+.propreties > .nth_child_4n{
+    display: flex;
+}
+.propreties > .nth_child_4n > .child{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: aqua;
+}
+.propreties > .nth_child_4n:hover :nth-child(4n){
+    background-color: darkgoldenrod;
+}
+.propreties > .nth_child_3n-1{
+    display: flex;
+}
+.propreties > .nth_child_3n-1 > .child{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: aqua;
+}
+.propreties > .nth_child_3n-1:hover :nth-child(3n-1){
+    background-color: darkgoldenrod;
+}
+.propreties > .nth_child_3n1{
+    display: flex;
+}
+.propreties > .nth_child_3n1 > .child{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: aqua;
+}
+.propreties > .nth_child_3n1:hover :nth-child(3n+1){
+    background-color: darkgoldenrod;
+}
+.propreties > .nth_child_n4{
+    display: flex;
+}
+.propreties > .nth_child_n4 > .child{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: aqua;
+}
+.propreties > .nth_child_n4:hover :nth-child(n+4){
+    background-color: darkgoldenrod;
+}
+.cursor{
+    display: flex;
+    flex-direction: column;
+}
+.cursor :nth-child(2n){
+    height: 50px;
+    width: 50px;
+    background-color: black;
+}
+.none{
+    cursor: none;
+}
+.help{
+    cursor: help;
+}
+.pointer{
+    cursor: pointer;
+}
+.progress{
+    cursor: progress;
+}
+.wait{
+    cursor: wait;
+}
+.cell{
+    cursor: cell;
+}
+.crosshair{
+    cursor: crosshair;
+}
+.text{
+    cursor: text;
+}
+.vertical_text{
+    cursor: vertical-text;
+}
+.alias{
+    cursor: alias;
+}
+.copy{
+    cursor: copy;
+}
+.move{
+    cursor: move;
+}
+.not_allowed{
+    cursor: not-allowed;
+}
+.grab{
+    cursor: grab;
+}
+.grabbing{
+    cursor: grabbing;
+}
+.all_scroll{
+    cursor: all-scroll;
+}
+.col_resize{
+    cursor: col-resize;
+}
+.row_resize{
+    cursor: row-resize;
+}
+.n_resize{
+    cursor: n-resize;
+}
+.e_resize{
+    cursor: e-resize;
+}
+.s_resize{
+    cursor: s-resize;
+}
+.w_resize{
+    cursor: w-resize;
+}
+.ne_resize{
+    cursor: ne-resize;
+}
+.nw_resize{
+    cursor: nw-resize;
+}
+.zoom_in{
+    cursor: zoom-in;
+}
+.zoom_out{
+    cursor: zoom-out;
+}
